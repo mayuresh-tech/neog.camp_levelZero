@@ -26,7 +26,7 @@ body {
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 999px) {
+@media screen and (min-width: 701px) and (max-width: 999px) {
     body img {
         margin-top: 5%;
         height: auto;
@@ -44,20 +44,25 @@ body {
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 799px) {
+@media screen and (min-width: 200px) and (max-width: 700px) {
     body img {
         margin-top: 2%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     p {
         margin-top: 2%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
         text-align: center;
         font-weight: bold;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
