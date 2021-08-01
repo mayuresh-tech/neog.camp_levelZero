@@ -1,0 +1,263 @@
+/* Used JQuery Library for Homepage animation */
+/* Media-Query values used as recommended from Twittter Bootstrap */
+
+@media (min-width: 2001px) and (max-width: 3000px) {
+    /* Start of media query */
+    #image {
+        width: 3000px;
+        height: 2000px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+        background-image: none;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+
+    /* Start of media query */
+    #image {
+        width: 2500px;
+        height: 1900px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+        background-image: none;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Start of media query */
+    #image {
+        width: 1300px;
+        height: 1900px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Start of media query */
+    #image {
+        width: 1100px;
+        height: 1900px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* Start of media query */
+    #image {
+        width: 800px;
+        height: 1500px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+@media (min-width: 1px) and (max-width: 575px) {
+
+    /* Start of media query */
+    #image {
+        width: 700 px;
+        height: 1300px;
+    }
+
+    #splashscreen {
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #000000;
+        transition: 1s 0.4s;
+    }
+
+    #splashscreen #progress {
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        width: 0;
+        top: 50%;
+        transition: 1s;
+    }
+
+    #splashscreen #status {
+        font-size: 0.7em;
+        letter-spacing: 3px;
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    /* End of media query */
+
+}
+
+/* End of css file */
