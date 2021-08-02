@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+}
+
+#heading-text {
+    text-align: center;
+    padding: 1%;
+    font-size: 1.7rem;
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+#head-decorate {
+    background-color: gold;
+    width: 100%;
+}
+
+#input-area {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1rem;
+    margin-top: 2%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#click-submit {
+    margin-top: 2%;
+    margin-left: 28%;
+    padding: 1%;
+    border-radius: 10%;
+    font-size: 1rem;
+    background-color: gold;
+    border: none;
+}
+
+#output-area {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1rem;
+    margin-top: 2%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: gold;
+}
+
+#bottom {
+    text-align: center;
+}
+
+#about { 
+    font-family: fantasy;
+    margin-top: 0.6%;
+    font-size: 1.5rem;
+    margin-bottom: 0.3%;
+    font-weight: 500;
+}
+
+#about-content {
+    font-family: fantasy;
+    margin: auto;
+    width: 38%;
+    word-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 0.5%;
+    font-size: 1rem;
+    font-weight: 300;
+}
