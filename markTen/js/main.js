@@ -23,28 +23,36 @@ billAmountButton.addEventListener("click", function() {
 });
 
 paidAmountButton.addEventListener("click", function() {
-    console.log(document.getElementById("input-cash-given").value);
-    if(parseInt(document.getElementById("input-cash-given").value.trim()) >= parseInt(document.getElementById("input-amount-number").value.trim())) {
-        document.querySelector(".show-currency").style.display = "block";
-        document.querySelector(".button-show").style.display = "none";
-        var amountToCheckForNotes = document.getElementById("input-cash-given").value.trim() - document.getElementById("input-amount-number").value.trim();
-        var result = new Array(7);
-        for(var i = 0; i < notes.length; i++) {
-            if(amountToCheckForNotes >= notes[i]) {
-                result[i] = parseInt(amountToCheckForNotes / notes[i]);
-                amountToCheckForNotes = amountToCheckForNotes - ( result[i] * notes[i]);
+    if(parseInt(document.getElementById("input-cash-given").value.trim()) != 0 &&  parseInt(document.getElementById("input-amount-number").value.trim()) != 0) {
+        if(parseInt(document.getElementById("input-cash-given").value.trim()) >= parseInt(document.getElementById("input-amount-number").value.trim())) {
+            document.querySelector(".show-currency").style.display = "block";
+            document.querySelector(".button-show").style.display = "none";
+            var amountToCheckForNotes = document.getElementById("input-cash-given").value.trim() - document.getElementById("input-amount-number").value.trim();
+            var result = new Array(7);
+            for(var i = 0; i < notes.length; i++) {
+                if(amountToCheckForNotes >= notes[i]) {
+                    result[i] = parseInt(amountToCheckForNotes / notes[i]);
+                    amountToCheckForNotes = amountToCheckForNotes - ( result[i] * notes[i]);
+                }
+                else {
+                    result[i] = 0;
+                }
             }
-            else {
-                result[i] = 0;
+    
+            var x = document.getElementsByClassName("notes");
+            for(var i = 0; i < notes.length; i++) {
+                x[i].innerHTML = result[i];
             }
         }
-
-        var x = document.getElementsByClassName("notes");
-        for(var i = 0; i < notes.length; i++) {
-            x[i].innerHTML = result[i];
+        else {
+            alert("Cash given should be greator than Bill Amount");
         }
     }
     else {
-        alert("Cash given should be greator than Bill Amount");
+        var x = document.getElementsByClassName("notes");
+        for(var i = 0; i < notes.length; i++) {
+            x[i].innerHTML = 0;
+        }
+        alert("Please check given values");
     }
 });
