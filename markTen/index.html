@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <title>Cash Register</title>
+</head>
+<body class="dark-theme || light-theme">
+    <section class="main-heading">
+       
+        <div id="heading">
+            <p id="head1">Cash Register</p>
+            <button id="theme-change">
+                ☀️
+            </button> 
+        </div>
+    
+    </section>
+    
+    <section class="main">
+        <div class="input-amount-heading">
+            
+            <p id="note">Enter total Bill Amount and Cash Paid</p>
+            
+            <p id="total-amount-note">Total Bill Amount:</p>
+            <input id="input-amount-number" type="number"/>
+            
+            <div class="button-show">
+                <button id="input-amount-button">NEXT</button>
+            </div>
+            
+            <div class="check-text-show">
+                <p id="cash-given-note">Cash Paid:</p>
+                <input id="input-cash-given" type="number"/>
+            </div>
+
+            <div class="check-show">
+                <button id="paid-amount-button">CHECK</button>
+            </div>
+
+            <div class="show-currency">
+                <p id="return-note">Return Change:</p>
+                <table id="table-all">
+                    <tbody>
+                        <tr class="row1">
+                            <th>
+                                No. of Notes:
+                            </th>
+                            <td class=notes-display>2000</td>
+                            <td class=notes-display>500</td>
+                            <td class=notes-display>100</td>
+                            <td class=notes-display>20</td>
+                            <td class=notes-display>10</td>
+                            <td class=notes-display>5</td>
+                            <td class=notes-display>1</td>
+                        </tr>
+                        <tr class="row2">
+                            <th>
+                                Note:
+                            </th>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                            <td class="notes">0</td>
+                        </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
