@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: background-color 1s ease, color 0.3s ease;
+    font-family: monospace;
+}
+
+:root {
+    --color-white: #fff;
+    --color-grey: #eeeeee;
+}
+
+.light-theme {
+    --color-backgrounds: #6200EE;
+    --color-primary--background: #fff;
+    --color-text: #fff;
+}
+
+.dark-theme {
+    --color-backgrounds: #292929;
+    --color-primary--background: #121212;
+    --color-text: #BB86FC;
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+
+    /* LIGHT THEME */
+
+    body.light-theme {
+        height: 100%;
+        width: 100%;
+        background-color: var(--color-primary--background);
+    }
+
+    body.light-theme .main-heading {
+        width: 60%;
+        color: var(--color-backgrounds);
+        font-weight: bold;
+        font-size: 3rem;
+        margin: auto;
+        margin-top: 1%;
+        padding: 1% 1.5% 1% 1.5%;
+    }
+
+    body.light-theme .main {
+        width: 60%;
+        background-color: var(--color-backgrounds);
+        color: var(--color-text);
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin: auto;
+        padding: 1% 1.5% 2% 1.5%;
+    }
+
+    body.light-theme #heading {
+        display: flex;
+        padding: 2%;
+        text-align: center;
+    }
+
+    body.light-theme #head1 {
+        flex: 1;
+    }
+
+    body.light-theme #theme-change {
+        cursor: pointer;
+        flex: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    body.light-theme #note {
+        text-align: center;
+        margin-top: 2%;
+        font-size: 2.3rem;
+    }
+
+    body.light-theme #total-amount-note {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 1.8rem;
+    }
+
+    body.light-theme #input-amount-number {
+        text-align: center;
+        margin-top: 1%;
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1%;
+        font-size: 1.5rem;
+        color: var(--color-backgrounds);
+    }
+
+    body.light-theme #input-amount-button {
+        cursor: pointer;
+        border-radius: 1.5rem;
+        color: var(--color-backgrounds);
+        font-weight: 900;
+        border: none;
+        background-color: var(--color-text);
+        font-size: 1.15rem;
+        padding: 1.3% 3%;
+        margin-top: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    body.light-theme #cash-given-note {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 1.8rem;
+    }
+
+    body.light-theme #input-cash-given {
+        text-align: center;
+        margin-top: 1%;
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1%;
+        font-size: 1.5rem;
+        color: var(--color-backgrounds);
+    }
+
+    body.light-theme #paid-amount-button {
+        cursor: pointer;
+        border-radius: 1.5rem;
+        color: var(--color-backgrounds);
+        font-weight: 900;
+        border: none;
+        background-color: var(--color-text);
+        font-size: 1.15rem;
+        padding: 1.3% 3%;
+        margin-top: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    body.light-theme #return-note {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 2rem;
+    }
+
+    /* DARK THEME */
+
+    body.dark-theme {
+        height: 100%;
+        width: 100%;
+        background-color: var(--color-primary--background);
+    }
+
+    body.dark-theme .main-heading {
+        width: 60%;
+        color: var(--color-text);
+        font-weight: bold;
+        font-size: 3rem;
+        margin: auto;
+        margin-top: 1%;
+        padding: 1% 1.5% 1% 1.5%;
+    }
+
+    body.dark-theme .main {
+        width: 60%;
+        background-color: var(--color-backgrounds);
+        color: var(--color-text);
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding: 1% 1.5% 2% 1.5%;
+    }
+
+    body.dark-theme #heading {
+        display: flex;
+        text-align: center;
+    }
+
+    body.dark-theme #head1 {
+        flex: 2;
+    }
+
+    body.dark-theme #theme-change {
+        cursor: pointer;
+        flex: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    body.dark-theme #note {
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    body.dark-theme #total-amount-note {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 1.8rem;
+    }
+
+    body.dark-theme #input-amount-number {
+        text-align: center;
+        margin-top: 1%;
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1%;
+        font-size: 1.5rem;
+        color: var(--color-backgrounds);
+    }
+
+    body.dark-theme #input-amount-button {
+        cursor: pointer;
+        border-radius: 1.5rem;
+        color: var(--color-backgrounds);
+        font-weight: 900;
+        border: none;
+        background-color: var(--color-text);
+        font-size: 1.15rem;
+        padding: 1.3% 3%;
+        margin-top: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    body.dark-theme #cash-given-note {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 1.8rem;
+    }
+
+    body.dark-theme #input-cash-given {
+        text-align: center;
+        margin-top: 1%;
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1%;
+        font-size: 1.5rem;
+        color: var(--color-backgrounds);
+    }
+
+    body.dark-theme #paid-amount-button {
+        cursor: pointer;
+        border-radius: 1.5rem;
+        color: var(--color-backgrounds);
+        font-weight: 900;
+        border: none;
+        background-color: var(--color-text);
+        font-size: 1.15rem;
+        padding: 1.3% 3%;
+        margin-top: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    body.dark-theme #return-note {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 2rem;
+    }
+
+    #table-all {
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+
+    th {
+        width: 30%;
+        text-align: center;
+        float: inline-start;
+    }
+
+    .notes-display {
+        width: 10%;
+        clear: both;
+        text-align: center;
+    }
+
+    .notes {
+        text-align: center;
+    }
+
+    .show-currency {
+        display: none;
+    }
+
+    .check-text-show {
+        display: none;
+    }
+
+    /* .button-show {
+        display: none; 
+    } */
+
+    .check-show {
+        display: none;
+    }
+
+}
