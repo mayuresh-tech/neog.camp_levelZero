@@ -1,0 +1,84 @@
+* {
+  transition: 0.5s ease;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#heading {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+#cancel-button {
+  background-color: transparent;
+  border: none;
+  float: right;
+}
+
+.alertBox {
+  font-size: 1.2rem;
+  background-color: #dc143c;
+  width: 80%;
+  margin: auto;
+  font-weight: 900;
+  padding: 0.1% 0.3% 0.1% 2.5%;
+  margin-bottom: 2%;
+}
+
+.mainBox {
+  font-size: 1.2rem;
+  clear: both;
+  padding: 1% 1% 3% 1%;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  background-color: aqua;
+}
+
+#date-input {
+  margin-left: 1%;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#lucky-input {
+  appearance: none;
+  width: 15%;
+  margin-left: 1%;
+  text-align: center;
+}
+
+.check {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0.5%;
+  font-size: 1rem;
+  color: white;
+}
+
+.check:hover {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+#image {
+  margin: auto;
+  display: none;
+  margin-top: 2%;
+  height: 10%;
+  width: 30%;
+}
