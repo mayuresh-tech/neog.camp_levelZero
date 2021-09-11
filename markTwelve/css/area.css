@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** Navbar start **/
+
+nav {
+    background-color: #EE82EE;
+}
+
+.highlight {
+    color: red;
+}
+
+#topBox {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topBox a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#topBox a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: purple;
+}
+
+#topBox .add-margin {
+    margin-right: 10.1%;
+}
+
+/** Navbar end **/
+
+#midBox {
+    text-align: center;
+    margin-top: 3%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+#area-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area-circle-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#enter-text {
+    font-size: 1.1rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#try {
+    color: crimson;
+    font-size: 0.9rem;
+    margin-right: 1.3%;
+    position: absolute;
+    right: 0;
+    top: 12%;
+}
+
+#try a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.bh {
+    margin-right: 1%;
+    text-align: center;
+    padding: 1%;
+    width: 15%;
+    font-size: 1rem;
+}
+
+.radius {
+    margin-right: 1%;
+    text-align: center;
+    padding: 1%;
+    width: 15%;
+    font-size: 1rem;
+}
+
+#submit-btn {
+    margin-top: 5%;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+#submit-btn:hover {
+    margin-top: 5%;
+    cursor: pointer;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+#submit-btn-circle {
+    margin-top: 5%;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+#submit-btn-circle:hover {
+    margin-top: 5%;
+    cursor: pointer;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+
+#output {
+    margin-top: 4%;
+    font-size: 1.2rem;
+}
+
+/** Footer start **/
+
+footer {
+    position: absolute;
+    height: 12%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #fff;
+    padding: 20px;
+}
+  
+footer p {
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.514);
+}
+  
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+  
+footer ul li a {
+    color: rgba(0, 0, 0, 0.623);
+    transition: 0.2s all;
+}
+  
+footer ul li a:hover {
+    color: var(--hover-color);
+}
+
+/** Footer end **/

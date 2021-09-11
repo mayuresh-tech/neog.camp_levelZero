@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** Navbar start **/
+
+nav {
+    background-color: #EE82EE;
+}
+
+.highlight {
+    color: red;
+}
+
+#topBox {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topBox a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#topBox a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: purple;
+}
+
+#topBox .add-margin {
+    margin-right: 10.1%;
+}
+
+/** Navbar end **/
+
+/** **/
+
+#midBox {
+    text-align: center;
+    margin-top: 3%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#midBox .angle-input {
+    text-align: center;
+    padding: 1.2%;
+    width: 40%;
+    font-size: 1rem;
+}
+
+#midBox .ip {
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-size: 1.3rem;
+}
+
+#submit-btn {
+    margin-top: 5%;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+#submit-btn:hover {
+    margin-top: 5%;
+    cursor: pointer;
+    border-style: none;
+    font-size: 0.9rem;
+    width: 20%;
+    padding: 1.2%;
+    border-radius: 1rem;
+}
+
+#output {
+    margin-top: 4%;
+    font-size: 1.2rem;
+}
+
+/** **/
+
+/** Footer start **/
+
+footer {
+    position: absolute;
+    height: 12%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #fff;
+    padding: 20px;
+}
+  
+footer p {
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.514);
+}
+  
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+  
+footer ul li a {
+    color: rgba(0, 0, 0, 0.623);
+    transition: 0.2s all;
+}
+  
+footer ul li a:hover {
+    color: var(--hover-color);
+}
+
+/** Footer end **/
+  
