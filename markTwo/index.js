@@ -39,6 +39,14 @@ var questionFour = {
   score: 4
 };
 
+var questionFive = {
+  ques: 'Which one of the following options can be considered as the Cloud? ',
+  option1: 'Hadoop',
+  option2: 'Intranet',
+  answerOption: 1,
+  score: 10
+};
+
 var highScoreOne = {
   score: 10,
   name: 'Ahmed'
@@ -56,7 +64,7 @@ var highScoreThree = {
 
 var leaderboard = [highScoreOne, highScoreTwo, highScoreThree];
 
-var questionsList = [questionOne, questionTwo, questionThree, questionFour];
+var questionsList = [questionOne, questionTwo, questionThree, questionFour, questionFive];
 
 for(var i = 0; i < questionsList.length; i++) {
   var curr_ques = questionsList[i];
@@ -68,7 +76,7 @@ for(var i = 0; i < questionsList.length; i++) {
   console.log('\n');
 }
 
-if(curr_score === 10) {
+if(curr_score === 20) {
     console.log(chalk.green('You scored Highest!!') + chalk.red('\nYour score: ' + name + ' - ' + curr_score));
   }
   else {

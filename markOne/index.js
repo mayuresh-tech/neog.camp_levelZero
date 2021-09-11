@@ -31,24 +31,30 @@ var questionFour = {
   score: 5
 };
 
+var questionFive = {
+  ques: 'Which company I am Interning currently? ',
+  answer: 'PTC',
+  score: 10
+};
+
 var highScoreOne = {
-  score: 10,
+  score: 15,
   name: 'Ahmed'
 }
 
 var highScoreTwo = {
-  score: 9,
+  score: 12,
   name: 'Yash'
 }
 
 var highScoreThree = {
-  score: 7,
+  score: 10,
   name: 'Pooh'
 }
 
 var leaderboard = [highScoreOne, highScoreTwo, highScoreThree];
 
-var questionsList = [questionOne, questionTwo, questionThree, questionFour];
+var questionsList = [questionOne, questionTwo, questionThree, questionFour, questionFive];
 
 for(var i = 0; i < questionsList.length; i++) {
   var curr_ques = questionsList[i];
@@ -59,7 +65,7 @@ for(var i = 0; i < questionsList.length; i++) {
   console.log('\n');
 }
 
-if(curr_score === 10) {
+if(curr_score === 20) {
     console.log(chalk.green('You scored Highest!!') + chalk.red('\nYour score: ' + name + ' - ' + curr_score));
   }
   else {
