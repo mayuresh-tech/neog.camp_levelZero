@@ -41,6 +41,17 @@
     border: none;
 }
 
+#click-submit:hover {
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 28%;
+    padding: 1%;
+    border-radius: 10%;
+    font-size: 1rem;
+    background-color: gold;
+    border: none;
+}
+
 #output-area {
     padding: 20px;
     margin: 10px;
