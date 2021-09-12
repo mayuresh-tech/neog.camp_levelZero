@@ -72,6 +72,10 @@ if(curr_score === 20) {
   console.log(chalk.green('You scored: ' + name + ' - ' + curr_score));
 }
 
+if(curr_score > highScoreOne.score) {
+  console.log(chalk.blue('\nCongrats!! You got Rank 1 in Leaderboards! \nPing me and I will update your name in the Leaderboards.'));
+}
+
 console.log('\n');
 
 console.log('Leaderboards: ');
