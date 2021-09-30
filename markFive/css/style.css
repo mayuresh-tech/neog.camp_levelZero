@@ -64,17 +64,6 @@ section {
 		height: 30%;
 	}
 
-	#b-ul #blog3 {
-		width: 45%;
-		height: 30%;
-		margin-right: 10%;
-	}
-
-	#b-ul #blog4 {
-		width: 45%;
-		height: 30%;
-	}
-
 	#b-ul > li {
 		margin-top: 7%;
 		float: left;
@@ -131,6 +120,12 @@ section {
 		border-radius: 10%;
 		background-color: #E6E6FA;
 		background-color: #00ff00;
+	}
+
+	#blogs-read-more {
+		display: block;
+		margin-top: 30%;
+		font-size: 1.2rem;
 	}
 
 	.row {
