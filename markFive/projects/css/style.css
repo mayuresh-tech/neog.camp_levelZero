@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+}
+
+#git {
+    margin-top: 1%;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+
 #b-list {
     width: 90%;
     margin: auto;
@@ -7,6 +18,7 @@
 }
 
 #heading {
+    margin-top: 3%;
     text-align: center;
     font-size: 2rem;
     color: blueviolet;
@@ -19,13 +31,13 @@
     height: 100%;
 }
 
-#b-ul #blog1 {
+#b-ul #project1 {
     width: 45%;
     height: 30%;
     margin-right: 10%;
 }
 
-#b-ul #blog2 {
+#b-ul #project2 {
     width: 45%;
     height: 30%;
 }
@@ -36,19 +48,15 @@
     text-align: left;
 }
 
-#b-ul #blog-listing-link {
-    font-size: 1.7rem;
+#b-ul #project-listing-link {
+    font-size: 1.3rem;
 }
 
-#b-ul #blog-date {
-    font-size: 0.95rem;
+#b-ul #content-project {
+    font-size: 1.5rem;
 }
 
-#b-ul #content-blog {
-    font-size: 1rem;
-}
-
-#b-ul .blog-live-button {
+#b-ul .project-live-button {
     font-size: 0.9rem;
     background-color: #E6E6FA;
     border: 1px solid #00ff00;
@@ -58,13 +66,13 @@
     border-radius: 10%;
 }
 
-#b-ul #blog-listing-link {
+#b-ul #project-listing-link {
     text-decoration: none;
     font-weight: bolder;
     color: blueviolet;
 }
 
-#b-ul .blog-view-source {
+#b-ul .project-view-source {
     font-size: 0.9rem;
     background-color: #E6E6FA;
     border: 1px solid blueviolet;
@@ -74,7 +82,7 @@
     border-radius: 10%;
 }
 
-#b-ul .blog-view-source:hover {
+#b-ul .project-view-source:hover {
     font-size: 0.9rem;
     margin-top: 0.5%;
     margin-right: 2%;
@@ -84,7 +92,7 @@
     background-color: blueviolet;
 }
 
-#b-ul .blog-live-button:hover {
+#b-ul .project-live-button:hover {
     font-size: 0.9rem;
     margin-top: 0.5%;
     margin-right: 2%;
@@ -95,38 +103,33 @@
 }
 
 footer {
-    position: absolute;
-    height: 12%;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+    margin-top: 5%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.247);
     color: #fff;
     padding: 20px;
-  }
+}
   
-  footer p {
+footer p {
     margin-left: 20px;
     font-size: 1rem;
     font-weight: 700;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.514);
-  }
+}
   
-  footer ul li {
+footer ul li {
     display: inline-block;
     list-style-type: none;
     margin-right: 10px;
     font-size: 1.3rem;
-  }
+}
   
-  footer ul li a {
+footer ul li a {
     color: rgba(0, 0, 0, 0.623);
     transition: 0.2s all;
-  }
+}
   
-  footer ul li a:hover {
+footer ul li a:hover {
     color: var(--hover-color);
-  }
+}
