@@ -59,8 +59,13 @@ var questionsList = [questionOne, questionTwo, questionThree, questionFour, ques
 for(var i = 0; i < questionsList.length; i++) {
   var curr_ques = questionsList[i];
   var answer_curr = readline_sync.question(curr_ques.ques);
+  
   if(answer_curr == curr_ques.answer) {
     curr_score += curr_ques.score;
+    console.log(chalk.green("Correct Answer!! 😊 \nYour current score: " + curr_score));
+  }
+  else {
+    console.log(chalk.red("Wrong Answer 😔 \nYour current score: " + curr_score));
   }
   console.log('\n');
 }

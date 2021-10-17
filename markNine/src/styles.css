@@ -63,3 +63,10 @@ li {
   font-weight: lighter;
   color: rgb(119, 119, 119);
 }
+
+.teacherDescription {
+  margin-top: 1.5%;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(119, 119, 119);
+}
