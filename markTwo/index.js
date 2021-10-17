@@ -70,8 +70,13 @@ for(var i = 0; i < questionsList.length; i++) {
   var curr_ques = questionsList[i];
   console.log(curr_ques.ques + '\n1.' + curr_ques.option1 + '\t' + '2.' + curr_ques.option2);
   var answer_curr = readline_sync.question('Your answer( 1 / 2 ): ');
+
   if(answer_curr == curr_ques.answerOption) {
     curr_score += curr_ques.score;
+    console.log(chalk.green("Correct Answer!! 😊 \nYour current score: " + curr_score));
+  }
+  else {
+    console.log(chalk.red("Wrong Answer 😔 \nYour current score: " + curr_score));
   }
   console.log('\n');
 }

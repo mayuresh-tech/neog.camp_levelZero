@@ -6,42 +6,51 @@ export default function App() {
     Java: [
       {
         teacher: "Java Brains",
+        description: "Best and in-depth knowledge of Java",
         rating: "5 / 5"
       },
       {
         teacher: "Telusko",
+        description: "Friend like Teacher",
         rating: "4.5 / 5"
       },
       {
         teacher: "freeCodeCamp.org",
+        description: "Professional and easy to understand Java courses",
         rating: "4.5 / 5"
       }
     ],
     React: [
       {
         teacher: "Tanay Pratap",
+        description: "Best Teacher for ReactJS",
         rating: "5 / 5"
       },
       {
         teacher: "Akshay Saini",
+        description: "Deep knowledge of JavaScript",
         rating: "5 / 5"
       }
     ],
     "C++": [
       {
         teacher: "Abdul Bari",
+        description: "Data Structures Master",
         rating: "5 / 5"
       },
       {
         teacher: "Love Babbar",
+        description: "Roadmaps maker",
         rating: "5 / 5"
       },
       {
         teacher: "freeCodeCamp.org",
+        description: "Professional C++ content",
         rating: "4.5 / 5"
       },
       {
         teacher: "CS Dojo",
+        description: "Easy to understand DS courses",
         rating: "4 / 5"
       }
     ]
@@ -79,6 +88,7 @@ export default function App() {
                 <div className="card">
                   <div className="teacherName">{item.teacher}</div>
                   <div className="teacherRating">{item.rating}</div>
+                  <div className="teacherDescription">{item.description}</div>
                 </div>
               </li>
             );
